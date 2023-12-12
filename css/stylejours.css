@@ -1,0 +1,78 @@
+﻿/* Police spécifique */
+
+@font-face {
+    font-family: "Galano";
+    src: url('../fonts/Galano/Galano%20Grotesque.woff2') format('woff2'),
+         url('../fonts/Galano/Galano%20Grotesque.woff') format('woff'),
+         url('../fonts/Galano/Galano%20Grotesque.ttf') format('truetype'),
+         url('../fonts/Galano/Galano%20Grotesque.otf') format('opentype'); 
+}
+@font-face{
+    font-family: "Galano Bold Italic";
+    src: url('../fonts/Galano/GalanoGrotesque-BoldItalic.woff2') format('woff2'),
+         url('../fonts/Galano/GalanoGrotesque-BoldItalic.woff') format('woff'),
+         url('../fonts/Galano/GalanoGrotesque-BoldItalic.ttf') format('truetype'),
+         url('../fonts/Galano/GalanoGrotesque-BoldItalic.otf') format('opentype');  
+
+}
+
+
+/*Texte*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*obligatoire*/
+}
+html,body{
+    width: 100%;
+    background-color: white;   
+}
+div{
+    width: 50%;
+    margin-left: 25%;
+    background-color: white;
+    text-align: center;
+}
+.libelle {
+    font-family: 'Galano';
+    text-align:left;
+    color: black;
+    font-size: 1em;
+    margin-top: 1em;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.question{
+    font-family: 'Galano';
+    text-align:left;
+    color: black;
+    font-size: 1em;
+    width: 80%;
+    margin-left: 10%;
+}
+
+ul{
+    margin-left: 26em;
+}
+li{
+     font-family: 'Galano';
+}
+.reponse{
+    font-family: 'Galano';
+    text-align:center;
+    color: #c49100;
+    font-size: 1em;
+    font-weight: 100;
+    margin: 1em auto;
+    margin-right: 1em;
+}
+
+h1 {
+    font-family: 'Galano Bold Italic';
+    text-align: center;
+    color: #c49100;
+    font-size: 3em;
+    font-weight: 100;
+}
